@@ -39,7 +39,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/fenglpf/monkey-nodejs_20251201:8688
+            ghcr.io/lpfkitty886/monkey-nodejs_20251201:8688
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
